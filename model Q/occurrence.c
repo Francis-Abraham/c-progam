@@ -1,5 +1,7 @@
-/*Write a c program to find occurrence of each element from a list of number using array. 
-Use user defined functions (occurrence) pass parameters.*/
+/*
+Write a c program to find occurrence of each element from a list of number using array. 
+Use user defined functions (occurrence) pass parameters.
+*/
 #include <stdio.h>
 void occurrence(int arr[], int size)
 {
