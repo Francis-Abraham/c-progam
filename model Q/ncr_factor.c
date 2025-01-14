@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, r, i;
     long long n_fact = 1, r_fact = 1, n_r_fact = 1;
 
@@ -11,22 +12,25 @@ int main() {
     scanf("%d", &r);
 
     // Calculate n!
-    for (i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++)
+    {
         n_fact *= i;
     }
-    printf("n!= %lld\n",n_fact);
+    printf("n!= %lld\n", n_fact);
 
     // Calculate r!
-    for (i = 1; i <= r; i++) {
+    for (i = 1; i <= r; i++)
+    {
         r_fact *= i;
     }
-    printf("r!= %lld\n",r_fact);
+    printf("r!= %lld\n", r_fact);
 
     // Calculate (n-r)!
-    for (i = 1; i <= (n - r); i++) {
+    for (i = 1; i <= (n - r); i++)
+    {
         n_r_fact *= i;
     }
-    printf("(n-r)!= %lld\n",n_r_fact);
+    printf("(n-r)!= %lld\n", n_r_fact);
 
     // Calculate NCR
     long long ncr = n_fact / (r_fact * n_r_fact);
