@@ -1,3 +1,7 @@
+/* 
+Write a program to find out NCR factor of given number. Using loop. Do not use functions.
+[Hint: find n! , r! and (n-r)! . then find the NCR = n!/r!x(n-r)!]
+*/
 #include <stdio.h>
 int main()
 {
